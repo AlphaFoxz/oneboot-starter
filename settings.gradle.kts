@@ -6,14 +6,6 @@ pluginManagement {
         id("io.spring.dependency-management") version springDependencyManagementPluginVersion
     }
 }
-dependencyResolutionManagement {
-    versionCatalogs {
-        create("libs") {
-        }
-    }
-}
-
-rootProject.name = "oneboot-starter"
 
 include(
     ":cache_starter",
