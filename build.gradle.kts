@@ -15,8 +15,14 @@ tasks.jar {
 allprojects {
     group = onebootStarterGroupId
     version = onebootStarterVersion
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor(1, TimeUnit.SECONDS)
+    }
     repositories {
         mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+        }
     }
 }
 subprojects {
@@ -34,15 +40,6 @@ subprojects {
     tasks.jar {
         enabled = true
         archiveClassifier = ""
-    }
-    configurations.all {
-        resolutionStrategy.cacheChangingModulesFor(1, TimeUnit.SECONDS)
-    }
-    repositories {
-        mavenCentral()
-        maven {
-            url = uri("https://jitpack.io")
-        }
     }
     dependencyManagement {
         imports {
