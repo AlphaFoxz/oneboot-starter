@@ -1,0 +1,12 @@
+flowable:
+  #数据库配置
+  async-executor-activate: false
+  database-schema: "flowable"
+  database-schema-update: true
+  #字体
+#  label-font-name: "宋体"
+#  activity-font-name: "宋体"
+#  annotation-font-name: "宋体"
+#  rest-api-enabled: true
+#  process:
+#    definition-cache-limit: 1

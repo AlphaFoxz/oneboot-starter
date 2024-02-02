@@ -1,0 +1,8 @@
+//module com.github.alphafoxz.oneboot.starter.flowable {
+//    requires com.github.alphafoxz.oneboot.core;
+//    requires jakarta.annotation;
+//    requires flowable.engine;
+//    requires spring.context;
+//    requires static lombok;
+//    requires spring.boot.autoconfigure;
+//}
