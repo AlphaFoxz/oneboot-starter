@@ -52,6 +52,7 @@ subprojects {
     dependencies {
         compileOnly("com.google.code.findbugs:annotations")
         compileOnly("org.springframework.boot:spring-boot-starter")
+        annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
         implementation("com.github.AlphaFoxz:oneboot-core") {
             isChanging = true
         }
