@@ -1,7 +1,7 @@
 module com.github.alphafoxz.oneboot.starter.cache {
     requires com.fasterxml.jackson.databind;
     requires com.fasterxml.jackson.datatype.jsr310;
-    requires com.github.alphafoxz.oneboot.core;
+    requires com.github.alphafoxz.oneboot_core;
     requires com.github.benmanes.caffeine;
     requires spring.context;
     requires spring.context.support;

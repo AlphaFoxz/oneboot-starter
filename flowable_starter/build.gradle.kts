@@ -9,19 +9,3 @@ dependencies {
 //    implementation("org.flowable:flowable-ui-modeler-conf:7.0.0")
 //    implementation("org.flowable:flowable-ui-task-conf:7.0.0")
 }
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = project.group.toString()
-            artifactId = "flowable_starter"
-            version = project.version.toString()
-            from(components["java"])
-
-            versionMapping {
-                allVariants {
-                    fromResolutionResult()
-                }
-            }
-        }
-    }
-}

@@ -1,5 +1,5 @@
 module com.github.alphafoxz.oneboot.starter.postgres {
-    requires com.github.alphafoxz.oneboot.core;
+    requires com.github.alphafoxz.oneboot_core;
     requires org.slf4j;
     requires static lombok;
     requires spring.boot.autoconfigure;
