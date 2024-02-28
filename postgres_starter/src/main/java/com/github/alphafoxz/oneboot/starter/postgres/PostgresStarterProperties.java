@@ -6,6 +6,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Setter
 @Getter
-@ConfigurationProperties(prefix = "oneboot.starter.postgres")
+@ConfigurationProperties(prefix = "oneboot.starter.mysql")
 public class PostgresStarterProperties {
 }

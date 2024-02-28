@@ -11,6 +11,7 @@ include(
     ":cache_starter",
     ":flowable_starter",
     ":meilisearch_starter",
+    ":mysql_starter",
     ":postgres_starter",
 )
 
